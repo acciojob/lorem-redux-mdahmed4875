@@ -1,0 +1,60 @@
+/* Container */
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Main title */
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Loading and Error messages */
+.loading, .error {
+  text-align: center;
+  color: #555;
+  margin-top: 50px;
+}
+
+/* Grid layout for posts */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Post card */
+.post {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Post title */
+.post h3 {
+  color: #222;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Post body */
+.post p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 1rem;
+}
